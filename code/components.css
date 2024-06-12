@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+            aside{position: relative;
+              float: right;
+              width: 70%;}
+
+
+
+
+
+
+            body{min-height: 100vh;
+                margin: 0px;
+                padding: 0px;
+background: linear-gradient(to right top, blue, purple, #000fff); 
+            }
+
+#note{border-radius: 2 rem;
+width: 70%;
+      height: 100px;
+      margin: 0 auto;
+      border: 1px;
+      border:solid 1px #ccc;
+      border-radius: 8px;
+      box-shadow: 1px 1px 5px #000000;
+      padding-left: 2px;}
+
+      .back{
+        bottom: -100px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;}
+
+    .back:hover{
+        -webkit-filter: drop-shadow(0px 0px 50px white);
+      }
+
+    
+
+.topnav {
+ background: linear-gradient(to right, purple, deepskyblue);
+ backdrop-filter: blur(1rem) ;
+    box-shadow: -1px -1px 20px #000000;
+  overflow: hidden;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 30px 10px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+
+.topnav a:hover {
+  background-color: greenyellow;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: purple;
+
+  
+
+}
+
+.topnav a.active {
+  background-color: purple;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: greenyellow;
+}
+
+
+     audio::-webkit-media-controls-panel {
+     background: linear-gradient(to right, purple, chocolate, rosybrown);
+     width: 100%;
+     min-height: 6vh;
+     padding-left: 2px;
+     padding-right: 2px;
+     margin: 0px;
+     color: #fff;
+
+     }
+
+     audio::-webkit-media-controls-play-button
+     {
+             background-image: url('music.png');
+             background-image-width: 50%;
+
+     }
+
+
+        td {padding: 10px;
+            border: 10px;
+            height: 100px;
+            border-radius: 2rem;
+            -webkit-filter: drop-shadow(0px 0px 5px lightgoldenrodyellow);
+            backdrop-filter: blur(5rem) ;
+            background-size: cover;
+
+
+        }
+
+
+        
+
+table {margin-top: 100px;
+               min-height: 60vh;
+               width: 100%;
+               border-spacing: 20px;
+               text-align: center;
+
+        }
+
+#flute,#guitar,#tabla,#violin,#piano,#sitaar{background-size: cover;}
+#sitaar{background-image: url('sitaar.jpg');}
+#flute{background-image: url('flute.jpg');}
+#guitar{background-image: url('guitar.jpg');}
+#tabla{background-image: url('tabla.jpg');}
+#violin{background-image: url('violin.jpg');}
+#piano{background-image: url('piano.jpg');}

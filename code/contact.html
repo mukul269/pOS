@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>contacts</title>
+	<style>
+		*{margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body{min-height: 100vh;
+			background: linear-gradient(to right top, #000888, #6cdbeb); 
+			display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;transition: 2s;
+            overflow: ;
+        }
+
+        table{position: absolute;
+        	top : 1%;
+        	font-size: 20px;
+        	width: 100%;
+            min-height: 80vh;
+            border-radius: 2rem;
+            border: 2px solid;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+
+        }
+        td{color: whitesmoke;
+        	border: 2px solid black;
+        	border-radius: 2rem;
+        	box-shadow: 0  0 5px black;
+        	background: linear-gradient(to bottom,rgba(0, 0, 0, 1), 
+		                                       purple);}
+
+        	tr:hover{-webkit-filter: drop-shadow(0 0 10px white);}
+
+        th{color: black;
+        	font-family: monospace;
+        	font-size: 50px;
+        	text-shadow: 0 0 8px white;}
+
+        a:link{color: white;
+        	text-decoration: none;}
+
+        	.back{position: absolute;
+        		bottom: 1%;
+        display: flex;
+    align-items: center;
+    justify-content: center;}
+
+    .back:hover{
+        -webkit-filter: drop-shadow(0 0 10px white);}
+
+        a:visited{color: white;}
+
+
+
+
+	</style>
+</head>
+<body onload="document.body.style.opacity='1'">
+	<table>
+		<tr>
+			<th>sr.no</th>
+			<th>name</th>
+			<th>mobile no.</th>
+		<tr>
+		<tr>
+			<td>1</td>
+			<td>frisbee thrower</td>
+			<td>6127992904</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>cyborg</td>
+			<td>9571092033</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>the bow and arrow</td>
+			<td>7021678432</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>man in a tin can</td>
+			<td>7127949394</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>poser</td>
+			<td>6127971196</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>the big guy</td>
+			<td>6127902790</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>sticky dude</td>
+			<td>9127425034</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>the god with hammer issues</td>
+			<td>8850765432</td>
+		</tr>
+		
+		<tr>
+			<td>9</td>
+			<td colspan="2"><a href="addc.html">+ (click to add new contact)</a></td>
+		</tr>
+	</table>
+	<div class="back">
+<a href="appscreen.html"><img src="previous.png" class="drop-shadow" width="100"></a>
+</div>
+</body>
+</html>
